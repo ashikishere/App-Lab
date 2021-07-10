@@ -85,8 +85,13 @@ function sticky_header() {
     }
   });
 }
+//  bootstap Scrollspy
 sticky_header();
 
 var scrollSpy = new bootstrap.ScrollSpy(document.body, {
   target: '#nav-sroling',
 });
+
+// WoW js
+
+new WOW().init();
